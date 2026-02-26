@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sunhailin-Leo/triton-service-go/models/bert"
+	"github.com/michalderdak/triton-service-go/models/bert"
 )
 
 func TestFullTokenizerNotChinese(t *testing.T) {

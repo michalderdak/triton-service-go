@@ -3,7 +3,7 @@ package bert
 import (
 	"strings"
 
-	"github.com/sunhailin-Leo/triton-service-go/utils"
+	"github.com/michalderdak/triton-service-go/utils"
 )
 
 const (
@@ -275,7 +275,7 @@ func (t *WordPieceTokenizer) TokenizeChineseCharMode(text string) []StringOffset
 }
 
 // WordPieceTokenize
-//transforms the input token in a new slice of words or sub-words units based on the supplied vocabulary.
+// transforms the input token in a new slice of words or sub-words units based on the supplied vocabulary.
 // The resulting tokens preserve the alignment with the portion of the original text they belong to.
 func (t *WordPieceTokenizer) WordPieceTokenize(tokens []StringOffsetsPair) []StringOffsetsPair {
 	outputTokens := make([]StringOffsetsPair, 0)

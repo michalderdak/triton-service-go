@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/sunhailin-Leo/triton-service-go/utils"
+	"github.com/michalderdak/triton-service-go/utils"
 )
 
 func TestIsWhiteSpace(t *testing.T) {

@@ -2,14 +2,14 @@
 Unofficial golang package for the Triton Inference Server(https://github.com/triton-inference-server/server)
 Triton Inference Server - Golang API
 
-[![Docs](https://pkg.go.dev/badge/github.com/sunhailin-Leo/triton-service-go)](https://pkg.go.dev/github.com/sunhailin-Leo/triton-service-go)
-[![Report Card](https://goreportcard.com/badge/github.com/sunhailin-Leo/triton-service-go)](https://goreportcard.com/report/github.com/sunhailin-Leo/triton-service-go)
+[![Docs](https://pkg.go.dev/badge/github.com/michalderdak/triton-service-go)](https://pkg.go.dev/github.com/michalderdak/triton-service-go)
+[![Report Card](https://goreportcard.com/badge/github.com/michalderdak/triton-service-go)](https://goreportcard.com/report/github.com/michalderdak/triton-service-go)
 
-[![Benchmark](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/benchmark.yml/badge.svg)](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/benchmark.yml)
-[![Lint Check](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/lint.yml/badge.svg)](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/lint.yml)
-[![Security Check](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/sercurity.yml/badge.svg)](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/sercurity.yml)
-[![Test](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/test.yml/badge.svg)](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/test.yml)
-[![Vulnerability Check](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/vulncheck.yml/badge.svg)](https://github.com/sunhailin-Leo/triton-service-go/actions/workflows/vulncheck.yml)
+[![Benchmark](https://github.com/michalderdak/triton-service-go/actions/workflows/benchmark.yml/badge.svg)](https://github.com/michalderdak/triton-service-go/actions/workflows/benchmark.yml)
+[![Lint Check](https://github.com/michalderdak/triton-service-go/actions/workflows/lint.yml/badge.svg)](https://github.com/michalderdak/triton-service-go/actions/workflows/lint.yml)
+[![Security Check](https://github.com/michalderdak/triton-service-go/actions/workflows/sercurity.yml/badge.svg)](https://github.com/michalderdak/triton-service-go/actions/workflows/sercurity.yml)
+[![Test](https://github.com/michalderdak/triton-service-go/actions/workflows/test.yml/badge.svg)](https://github.com/michalderdak/triton-service-go/actions/workflows/test.yml)
+[![Vulnerability Check](https://github.com/michalderdak/triton-service-go/actions/workflows/vulncheck.yml/badge.svg)](https://github.com/michalderdak/triton-service-go/actions/workflows/vulncheck.yml)
 
 ---
 
@@ -35,7 +35,7 @@ Triton Inference Server - Golang API
 
 * Download
 ```shell
-go get -u github.com/sunhailin-Leo/triton-service-go
+go get -u github.com/michalderdak/triton-service-go
 ```
 
 * Example for `Bert` Model
@@ -50,8 +50,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/sunhailin-Leo/triton-service-go/models/bert"
-	"github.com/sunhailin-Leo/triton-service-go/nvidia_inferenceserver"
+	"github.com/michalderdak/triton-service-go/models/bert"
+	"github.com/michalderdak/triton-service-go/nvidia_inferenceserver"
 )
 
 const (

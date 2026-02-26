@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sunhailin-Leo/triton-service-go/nvidia_inferenceserver"
-	"github.com/sunhailin-Leo/triton-service-go/utils"
+	"github.com/michalderdak/triton-service-go/nvidia_inferenceserver"
+	"github.com/michalderdak/triton-service-go/utils"
 	"github.com/valyala/fasthttp"
 	"google.golang.org/grpc"
 )

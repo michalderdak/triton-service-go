@@ -1,6 +1,6 @@
 package bert
 
-import "github.com/sunhailin-Leo/triton-service-go/nvidia_inferenceserver"
+import "github.com/michalderdak/triton-service-go/nvidia_inferenceserver"
 
 // GenerateModelInferRequest model input callback.
 type GenerateModelInferRequest func(batchSize, maxSeqLength int) []*nvidia_inferenceserver.ModelInferRequest_InferInputTensor
